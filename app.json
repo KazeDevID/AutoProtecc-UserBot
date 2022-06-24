@@ -1,0 +1,39 @@
+{
+    "name": "AutoProtecc Userbot",
+    "description": "It will autoprotecc waifus, servants or husbandos.",
+    "repository": "https://github.com/KazeDevID/AutoProtecc-Userbot",
+    "keywords": [
+        "python",
+        "pyrogram",
+        "auto",
+        "waifu",
+        "Autowaifu",
+        "servant",
+        "Autoservant",
+        "husbando",
+        "Autohusbando",
+        "protecc",
+        "autoprotecc"
+    ],
+    "website": "https://t.me/kenalsayaaa",
+    "logo": "https://i.ibb.co/jJM6SC2/kaze.jpg",
+    "env": {
+        "APP_ID": {
+            "description": "Get thid value from my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "STRING_SESSION": {
+            "description": "Get this from https://replit.com/"
+        },
+        "BOT_LIST":{
+            "description": "List id of bot for trigger autoprotecc, separate by space.",
+            "value": "792028928 1232515770 1964681186"
+        },
+        "DELAY": {
+            "description": "time delay in seconds so that it does not seep suspecious. Default = 5s",
+            "value": "5"
+        }
+    }
+}
